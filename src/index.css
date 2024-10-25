@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+.prose {
+  @apply text-gray-600;
+}
+
+.prose ul {
+  @apply list-disc list-inside space-y-1 my-4;
+}
+
+.prose p {
+  @apply my-4;
+}
